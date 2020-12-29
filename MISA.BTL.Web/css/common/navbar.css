@@ -1,0 +1,77 @@
+﻿.navbar {
+    position: absolute;
+    width: 200px;
+    background-color: #ffffff;
+    border-right: 1px solid #e5e5e5;
+    height: 100vh;
+}
+
+    .navbar .logo {
+        width: calc(100% - 16px);
+        height: 60px;
+        border-bottom: 1px solid #e5e5e5;
+        display: flex;
+        align-items: center;
+        padding-left: 16px;
+    }
+
+        .navbar .logo .cukcuk-logo {
+            margin-left: 10px;
+            height: 24px;
+            width: calc(100% - 50px);
+            background-image: url('/content/img/cukcuk-logo.png');
+            background-repeat: no-repeat;
+            background-size: contain;
+        }
+
+    .navbar .navbar-content {
+        width: 100%;
+    }
+
+        .navbar .navbar-content .item {
+            height: 44px;
+            width: 100%;
+            padding-left: 16px;
+            display: flex;
+            align-items: center;
+            cursor: pointer;
+            background-color: #ffffff;
+            border: none;
+            outline: none;
+        }
+
+            .navbar .navbar-content .item:hover {
+                background-color: #e5e5e5;
+            }
+
+            .navbar .navbar-content .item:focus {
+                background-color: #019160;
+                color: white;
+            }
+
+            .navbar .navbar-content .item .item-icon {
+                width: 20px;
+                height: 20px;
+                background-repeat: no-repeat;
+                background-size: contain;
+            }
+
+            .navbar .navbar-content .item .icon-dashboard {
+                background-image: url('../../content/icon/dashboard.png');
+            }
+
+            .navbar .navbar-content .item .icon-report {
+                background-image: url('../../content/icon/report.png');
+            }
+
+            .navbar .navbar-content .item .icon-dic-employee {
+                background-image: url('../../content/icon/dic-employee.png');
+            }
+
+            .navbar .navbar-content .item .icon-setting {
+                background-image: url('../../content/icon/setting.png');
+            }
+
+            .navbar .navbar-content .item .item-text {
+                margin-left: 10px;
+            }

@@ -1,0 +1,13 @@
+﻿.dropdown {
+    margin-left: 10px;
+    height: 37.5px;
+    padding-left: 16px;
+    border: 1px solid #bbbbbb;
+    border-radius: 4px;
+    width: 200px;
+    outline: none;
+}
+
+.dropdown:focus{
+    border: 2px solid #019160;
+}

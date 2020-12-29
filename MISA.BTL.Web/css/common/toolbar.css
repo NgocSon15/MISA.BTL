@@ -1,0 +1,17 @@
+﻿.filter-bar {
+    width: calc(100% - 16px);
+    display: flex;
+    align-items: center;
+    height: 40px;
+    margin-left: 16px;
+}
+
+    .filter-bar .filter-left{
+        height: 40px;
+    }
+
+    .filter-bar .filter-right{
+        height: 40px;
+        position: absolute;
+        right: 16px;
+    }

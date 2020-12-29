@@ -1,0 +1,51 @@
+﻿.header {
+    position: absolute;
+    left: 201px;
+    width: calc(100% - 201px);
+    height: 60px;
+    border-bottom: 1px solid #e5e5e5;
+    display: flex;
+    align-items: center;
+}
+
+    .header .header-left {
+        position: absolute;
+        left: 16px;
+        height: 24px;
+    }
+
+        .header .header-left .select {
+            border: none;
+            height: 100%;
+            border-radius: 5px;
+            font-weight: bold;
+            cursor: pointer;
+            outline: none;
+        }
+
+            .header .header-left .select:hover {
+                background-color: #e5e5e5;
+            }
+
+    .header .header-right {
+        position: absolute;
+        right: 16px;
+        height: 30px;
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+    }
+
+        .header .header-right .avatar-picture {
+            width: 30px;
+            height: 30px;
+            background-image: url('../../content/icon/avatar-default.png');
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: contain;
+            margin-right:16px;
+        }
+
+        .header .header-right .full-name{
+            margin-right: 16px;
+        }

@@ -1,0 +1,30 @@
+﻿.option-icon {
+    width: 24px;
+    height: 24px;
+    background-image: url('../../content/icon/option.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.toggle-icon {
+    width: 24px;
+    height: 24px;
+    background-image: url('/content/img/toggle.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.add-icon {
+    width: 16px;
+    height: 16px;
+    background-image: url('../../content/icon/add.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.search-icon {
+    background-image: url('../../content/icon/search.png');
+    background-repeat: no-repeat;
+    background-position: 16px center;
+}

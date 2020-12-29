@@ -1,0 +1,142 @@
+﻿.btn {
+    background-color: #019160;
+    border-radius: 4px;
+    height: 40px;
+    color: #ffffff;
+    padding-left: 16px;
+    padding-right: 16px;
+    display: flex;
+    align-items: center;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color:#2fbe8e;
+}
+
+.btn .btn-text{
+    margin-left: 8px;
+}
+
+.second-btn{
+    background-color: #ffffff;
+    border-radius: 4px;
+    height: 40px;
+    color: #000000;
+    padding-left: 24px;
+    padding-right: 24px;
+    text-align: center;
+    border: 1px solid #bbbbbb;
+    outline: none;
+    cursor: pointer;
+}
+
+.second-btn:hover{
+    background-color: #e9ebee;
+}
+
+.refresh-btn {
+    height: 37.5px;
+    background-image: url('../../content/icon/refresh.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.first-page-btn {
+    width: 32px;
+    height: 32px;
+    background-image: url('../../content/icon/btn-firstpage.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+    border-radius: 4px;
+    margin-right: 16px;
+    background-color: #ffffff;
+    cursor: pointer;
+    outline: none;
+}
+
+.first-page-btn:hover{
+    background-color: #e9ebee;
+}
+
+.prev-page-btn {
+    width: 32px;
+    height: 32px;
+    background-image: url('../../content/icon/btn-prev-page.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+    border-radius: 4px;
+    margin-right: 10px;
+    background-color: #ffffff;
+    cursor: pointer;
+    outline: none;
+}
+
+    .prev-page-btn:hover {
+        background-color: #e9ebee;
+    }
+
+.next-page-btn {
+    width: 32px;
+    height: 32px;
+    background-image: url('../../content/icon/btn-next-page.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+    border-radius: 4px;
+    margin-right: 16px;
+    background-color: #ffffff;
+    cursor: pointer;
+    outline: none;
+}
+
+    .next-page-btn:hover {
+        background-color: #e9ebee;
+    }
+
+.last-page-btn {
+    width: 32px;
+    height: 32px;
+    background-image: url('../../content/icon/btn-lastpage.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+    border-radius: 4px;
+    background-color: #ffffff;
+    cursor: pointer;
+    outline: none;  
+}
+
+    .last-page-btn:hover {
+        background-color: #e9ebee;
+    }
+
+.number-btn {
+    width: 32px;
+    height: 32px;
+    border: 1px solid #bbbbbb;
+    border-radius: 50%;
+    background-color: #ffffff;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    outline: none;
+}
+
+.number-btn:hover{
+    background-color: #e9ebee;
+}
+
+.number-btn:focus{
+    color: #ffffff;
+    background-color: #019160;
+    border: none;
+}
+
+
+
