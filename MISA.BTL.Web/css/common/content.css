@@ -22,7 +22,9 @@
             right: 16px;
         }
 
-    .content .filter-bar {
+    .content .filter-bar .dropdown {
+        width: 200px;
+        margin-left: 10px;
     }
 
     .content .paging-bar {

@@ -3,8 +3,8 @@
     border-radius: 4px;
     height: 40px;
     color: #ffffff;
-    padding-left: 16px;
-    padding-right: 16px;
+    padding-left: 24px;
+    padding-right: 24px;
     display: flex;
     align-items: center;
     border: none;
@@ -12,15 +12,15 @@
     cursor: pointer;
 }
 
-.btn:hover{
-    background-color:#2fbe8e;
-}
+    .btn:hover {
+        background-color: #2fbe8e;
+    }
 
-.btn .btn-text{
-    margin-left: 8px;
-}
+    .btn .btn-text {
+        margin-left: 8px;
+    }
 
-.second-btn{
+.second-btn {
     background-color: #ffffff;
     border-radius: 4px;
     height: 40px;
@@ -33,9 +33,9 @@
     cursor: pointer;
 }
 
-.second-btn:hover{
-    background-color: #e9ebee;
-}
+    .second-btn:hover {
+        background-color: #e9ebee;
+    }
 
 .refresh-btn {
     height: 37.5px;
@@ -58,9 +58,9 @@
     outline: none;
 }
 
-.first-page-btn:hover{
-    background-color: #e9ebee;
-}
+    .first-page-btn:hover {
+        background-color: #e9ebee;
+    }
 
 .prev-page-btn {
     width: 32px;
@@ -108,7 +108,7 @@
     border-radius: 4px;
     background-color: #ffffff;
     cursor: pointer;
-    outline: none;  
+    outline: none;
 }
 
     .last-page-btn:hover {
@@ -128,15 +128,45 @@
     outline: none;
 }
 
-.number-btn:hover{
-    background-color: #e9ebee;
-}
+    .number-btn:hover {
+        background-color: #e9ebee;
+    }
 
-.number-btn:focus{
-    color: #ffffff;
-    background-color: #019160;
+    .number-btn:focus {
+        color: #ffffff;
+        background-color: #019160;
+        border: none;
+    }
+
+.cancel-btn {
+    height: 40px;
+    border-radius: 4px;
+    background-color: #f2f2f2;
+    padding: 0 24px 0 24px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
     border: none;
+    margin-right: 10px;
+    outline: none;
 }
 
+    .cancel-btn:hover {
+        background-color: #e5e5e5;
+    }
 
+.delete-btn {
+    height: 40px;
+    border-radius: 4px;
+    background-color: #ffffff;
+    padding: 0 24px 0 24px;
+    display: none;
+    align-items: center;
+    cursor: pointer;
+    border: none;
+    margin-right: 10px;
+}
 
+    .delete-btn:hover {
+        background-color: #e5e5e5;
+    }

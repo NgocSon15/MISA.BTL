@@ -16,3 +16,11 @@
     font-family: 'GoogleSans-Italic';
     src: url('/content/font/GoogleSans-Italic.otf') format('opentype');
 }
+
+.text-align-center{
+    text-align: center;
+}
+
+.text-align-right{
+    text-align: right;
+}
